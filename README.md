@@ -46,7 +46,12 @@ The application uses a hardcoded connection string. **For development purposes**
 ```csharp
 string CadenaConexion = "Server=localhost;User=root;Password=;Port=3306;Database=BASE_DATOS";
 
-### 4. Running the Application
-Open the project file (PROYECTO_C.sln) in Visual Studio.
 
-Ensure all required NuGet packages (MySql.Data and SpreadsheetLight) are installed and referenced.
+
+
+### 4. Running the Application
+
+1.  Open the project file (`PROYECTO_C.sln`) in **Visual Studio**.
+2.  Ensure all required NuGet packages (`MySql.Data` and `SpreadsheetLight`) are installed and referenced.
+3.  Press **F5** or click **Start** in Visual Studio to build and launch the application.
+4.  **Test Connection:** Use the **"Connection Test"** button within the application to verify that the `CadenaConexion` successfully connects to your local MySQL server.
