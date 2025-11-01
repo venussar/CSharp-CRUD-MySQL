@@ -29,6 +29,8 @@ This repository contains a desktop application developed in **C# (Windows Forms)
 
 ### 2. Database Setup
 
+
+
 1.  **Create the Database:** Create a new database named `BASE_DATOS` on your local MySQL server.
 2.  **Create the Table:** Execute the following SQL query to create the `clientes` table:
     ```sql
@@ -38,8 +40,14 @@ This repository contains a desktop application developed in **C# (Windows Forms)
         Apellido VARCHAR(100)
     );
     ```
+### 3. Running the Application
 
-### 3. Connection Configuration
+1.  Open the project file (`PROYECTO_C.sln`) in **Visual Studio**.
+2.  Ensure all required NuGet packages (`MySql.Data` and `SpreadsheetLight`) are installed and referenced.
+3.  Press **F5** or click **Start** in Visual Studio to build and launch the application.
+4.  **Test Connection:** Use the **"Connection Test"** button within the application to verify that the `CadenaConexion` successfully connects to your local MySQL server.
+5.  
+### 4. Connection Configuration
 
 The application uses a hardcoded connection string. **For development purposes**, ensure your connection string matches your local setup:
 
@@ -49,9 +57,23 @@ string CadenaConexion = "Server=localhost;User=root;Password=;Port=3306;Database
 
 
 
-### 4. Running the Application
 
-1.  Open the project file (`PROYECTO_C.sln`) in **Visual Studio**.
-2.  Ensure all required NuGet packages (`MySql.Data` and `SpreadsheetLight`) are installed and referenced.
-3.  Press **F5** or click **Start** in Visual Studio to build and launch the application.
-4.  **Test Connection:** Use the **"Connection Test"** button within the application to verify that the `CadenaConexion` successfully connects to your local MySQL server.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
