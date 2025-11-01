@@ -1,10 +1,10 @@
-# 🖥️ MySQL Desktop CRUD Application (C# / Windows Forms)
+#  MySQL Desktop CRUD Application (C# / Windows Forms)
 
 This repository contains a desktop application developed in **C# (Windows Forms)** that implements a full **CRUD (Create, Read, Update, Delete)** system for managing customer records in a **MySQL** database.
 
 ---
 
-## ✨ Features
+##  Features
 
 * **Create (Guardar):** Insert new customer records (ID, Nombre, Apellido) into the `clientes` table.
 * **Read (Listar):** Display all records from the database in a `DataGridView`.
@@ -15,7 +15,7 @@ This repository contains a desktop application developed in **C# (Windows Forms)
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 | Category | Technology | Purpose |
 | :--- | :--- | :--- |
@@ -26,18 +26,6 @@ This repository contains a desktop application developed in **C# (Windows Forms)
 | **Reporting** | **SpreadsheetLight** | Library used for creating and manipulating Excel files (.xlsx). |
 
 ---
-
-## 🚀 Getting Started
-
-Follow these steps to set up and run the application.
-
-### 1. Prerequisites
-
-You must have the following installed and configured:
-
-* **Visual Studio** (Recommended: 2019 or newer)
-* **MySQL Server** (and MySQL Workbench or equivalent for initial DB setup).
-* **MySQL Connector/NET** (Required for the `MySql.Data` dependency).
 
 ### 2. Database Setup
 
@@ -57,3 +45,8 @@ The application uses a hardcoded connection string. **For development purposes**
 
 ```csharp
 string CadenaConexion = "Server=localhost;User=root;Password=;Port=3306;Database=BASE_DATOS";
+
+### 4. Running the Application
+Open the project file (PROYECTO_C.sln) in Visual Studio.
+
+Ensure all required NuGet packages (MySql.Data and SpreadsheetLight) are installed and referenced.
